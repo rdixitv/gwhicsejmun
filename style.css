@@ -1,0 +1,70 @@
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+h1.center {
+    text-align: center;
+}
+
+h2.center {
+    text-align: center;
+}
+
+h3.center {
+    text-align: center;
+}
+
+.even-row {
+    background-color: #999;
+}
+
+
+.contact-footer {
+    background-color: #333;
+    color: #eee;
+    padding: 10px;
+}
+
+
+
+
+  .gl {
+    margin: 50px auto;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .gl:hover {
+    transform: scale(1.2);
+  }
+
+
+
+#countdown {
+  display: flex;
+  gap: 15px;
+  font-size: 2rem;
+  background: #fff;
+  padding: 20px;
+}
+
+#countdown div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#countdown span {
+  font-weight: bold;
+  color: #4CAF50;
+  font-size: 2.5rem;
+}
+
+#countdown div > div {
+  font-size: 1rem;
+  color: #000;
+}
