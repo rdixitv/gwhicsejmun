@@ -40,7 +40,9 @@ h3.center {
     transform: scale(1.2);
   }
 
-
+.navbar {
+    border-radius: 0%;
+}
 
 #countdown {
   display: flex;
