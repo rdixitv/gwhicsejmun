@@ -1,3 +1,9 @@
+body {
+    background-color: #222;
+    color: #eee;
+}
+
+
 img.center {
     display: block;
     margin-left: auto;
@@ -22,13 +28,13 @@ h4.center {
 }
 
 .even-row {
-    background-color: #999;
+    background-color: #7b7b7b;
 }
 
 
 .contact-footer {
-    background-color: #333;
-    color: #eee;
+    background-color: #000;
+    color: #aaa;
     padding: 10px;
 }
 
@@ -49,10 +55,10 @@ h4.center {
 }
 
 #countdown {
+  color: #eee;
   display: flex;
   gap: 15px;
   font-size: 2rem;
-  background: #fff;
   padding: 20px;
   width: 100%;
   max-width: 400px;
@@ -66,21 +72,30 @@ h4.center {
   justify-content: center;
   align-items: center;
   width: 25%;
+  color: white;
 }
 
 #countdown span {
   /* font-weight: bold; */
-  color: #000;
+  color: #eee;
   font-size: 5rem;
 }
 
 #countdown div > div {
   font-size: 1rem;
-  color: #000;
+  color: #eee;
 }
 
 #cd-label {
     font-size: 2rem;
+    color: #eeeeee;
 }
 
 
+a[href] {
+	color: #1e8ad6;
+}
+
+a[href]:hover {
+	color: #3ba0e6;
+}
