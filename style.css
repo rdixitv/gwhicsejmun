@@ -99,3 +99,17 @@ a[href] {
 a[href]:hover {
 	color: #3ba0e6;
 }
+
+.resources-container {
+  position: relative;
+  text-align: center;
+}
+
+
+.resources-center {
+  position: absolute;
+  padding-bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke: 1px black;
+}
